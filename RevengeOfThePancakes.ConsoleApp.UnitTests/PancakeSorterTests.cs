@@ -20,6 +20,7 @@ namespace RevengeOfThePancakes.ConsoleApp.UnitTests
         [TestCase("+-", 2)]
         [TestCase("+++", 0)]
         [TestCase("--+-", 3)]
+        [TestCase("++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++-+---++", 56)]
         public void SortTest_GivenTestCases(string pancakeString, int expectedResult)
         {
             // While loop
